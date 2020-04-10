@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap" rel="stylesheet">
+
+
+    <script src="./js/main.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/7d32c0b1df.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Last Of Us Mockup</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Fixed Nav -->
+
+        <nav class="nav">
+            <li class="nav__li">
+                <img class="nav__img"
+                    src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-logo-white-01-ps4-us-10jul18?$native_xs$"
+                    alt="">
+            </li>
+            <li class="nav__li">
+                <a href="#" class="nav__link">
+                    Games
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </li>
+            <li class="nav__li">
+                <a href="#" class="nav__link">About</a>
+            </li>
+            <li class="nav__li">
+                <a href="#" class="nav__link">Media</a>
+            </li>
+            <li class="nav__li">
+                <a href="#" class="nav__link">News</a>
+            </li>
+            <li class="nav__li">
+                <a href="#" class="nav__link">Pre Order</a>
+            </li>
+        </nav>
+
+        <!-- Hero -->
+
+        <div class="hero">
+            <video class="hero__vid" muted="" autoplay="" loop="" playsinline="" webkit-playsinline=""
+                poster="//media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-e3-2018-screen-02-ps4-us-10jul18?$native_nt$">
+                <source
+                    src="//media.playstation.com/is/content/SCEA/explore/games/l/la/the-last-of-us-part-ii/us/ps4/website/videos/the-last-of-us-part-ii-live-video-block-01-ps4-us-23sep19.mp4">
+            </video>
+            <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-bottom-texture-ps4-us-24aug19?$native_xl_t$"
+            class="hero__bg-img" alt="">
+        </div>
+
+        <!-- Jumbo -->
+
+        <div class="jumbo">
+
+            <img class="jumbo__main-img"
+                src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-tall-logo-ps4-us-24aug19?$native_md_t$"
+                alt="">
+
+            <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-esrb-rating-image-block-01-ps4-24jan20-en-us?$native_xs_nt$"
+                class="jumbo__rating-img" alt="">
+
+            <div class="jumbo__btns">
+                <button class="btn btn--full">Pre Order</button>
+                <button class="btn btn--hollow">Watch Trailer</button>
+            </div>
+        </div>
+
+        <!-- About -->
+        <!--
+        <div class="about" id="about">
+            <div class="about__text">
+                <h2 class="h2">
+                    THE LAST OF US PART II
+                </h2>
+                Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have
+                settled down in Jackson, Wyoming. Living amongst a thriving community of survivors has allowed them
+                peace and stability, despite the constant threat of the infected and other, more desperate
+                survivors.
+                <br>
+                <br>
+                When a violent event disrupts that peace, Ellie embarks on a relentless journey to carry out justice
+                and find closure. As she hunts those responsible one by one, she is confronted with the devastating
+                physical and emotional repercussions of her actions.
+            </div>
+            <div class="about__img">
+                
+            </div>
+        </div>
+        -->
+
+        <!-- Flickety Slides -->
+
+        <!--
+
+        <div class="slides">
+            <div class="slides__content">
+                <h2 class="h2">
+                    Choose your edition
+                </h2>
+                
+                <div class="carousel carousel-nav">
+                    <div class="carousel-cell">Standard Edition</div>
+                    <div class="carousel-cell">Special Edition</div>
+                    <div class="carousel-cell">Deluxe Edition</div>
+                </div>
+                
+                <div class="carousel carousel-main">
+
+                    <div class="carousel-cell">
+                        <img src="https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-standard-edition-v2-ps4-en-us-12mar20?$native_lg_t$"
+                            class="carousel-cell__img" alt="">
+
+                        <div class="carousel-cell__content">
+                            <h2 class="h2">
+                                Standard Editions
+                            </h2>
+                            <button class="btn btn--full">
+                                Buy
+                            </button>
+                            <div class="carousel-cell__info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores perferendis porro,
+                                consequuntur provident quasi optio placeat aspernatur rerum odio saepe quidem blanditiis
+                                eius, qui reiciendis dolor dicta! Delectus, possimus amet! Saepe repellat possimus
+                                nobis. Debitis non nam ratione, cumque reprehenderit pariatur asperiores vel qui.
+                                Possimus molestiae tenetur ab nihil facilis delectus modi quos iste repellendus.
+                                Voluptatum, unde! Facere autem, eius, minima quae velit ex placeat ut nemo non est
+                                exercitationem ipsum porro sequi explicabo distinctio esse veniam nobis tempora
+                                reprehenderit. Quisquam dolorum est quas autem eveniet sed, reprehenderit, neque iure at
+                                iusto facilis inventore sequi! Aliquam commodi libero labore quam doloribus esse ab
+                                eveniet minima, soluta est atque molestias vel neque perspiciatis voluptatem qui at
+                                ratione vero error, quis maiores sunt officiis iure! Unde neque maiores illum quidem
+                                facere voluptatem hic, expedita eum? Enim veritatis dolores non asperiores atque vero
+                                molestiae sunt rem, tempora laborum iusto maiores labore dicta nostrum quibusdam odio,
+                                ipsam minus amet quos incidunt. Reiciendis animi quibusdam deleniti. Culpa deleniti a
+                                molestiae tempora velit aliquam earum vel libero dolorum veritatis rerum ratione animi
+                                dolorem veniam, id voluptatem quis tenetur adipisci et. Error sit unde eum quo quas
+                                laborum ut recusandae iste natus, quod quos molestias, impedit fugiat ea repudiandae
+                                obcaecati qui expedita molestiae quis, amet doloribus libero? Minus error ab delectus
+                                vel, quasi, quidem et, in praesentium consequatur eius dicta eligendi nulla dolor veniam
+                                sapiente tempore vitae amet iste quos? Iure incidunt quidem eos praesentium perferendis
+                                quibusdam accusamus? Modi reiciendis quam tenetur non numquam. Iusto laborum, placeat
+                                eius eligendi ut dicta, sit inventore quis, ex voluptate dignissimos impedit esse
+                                explicabo at possimus? Beatae harum eos culpa nemo consequatur laudantium molestiae
+                                suscipit, eius, quo voluptatum molestias distinctio vero commodi itaque sequi
+                                repellendus excepturi debitis non delectus repellat vitae, consequuntur tempora nihil
+                                sapiente? Dolores, quibusdam recusandae rem natus quisquam dignissimos aliquid, laborum
+                                tenetur porro libero deleniti minima facilis est fuga iste architecto voluptatum illo
+                                voluptates voluptas delectus dolorem. Dolores ratione nostrum porro molestiae asperiores
+                                saepe similique modi architecto. Dignissimos at fugiat mollitia fugit ipsam temporibus
+                                quos laboriosam reprehenderit odit consequatur adipisci dolores molestias inventore
+                                sequi esse rerum, suscipit illum cum. Illum omnis, consequuntur voluptas possimus vero
+                                ratione neque. Aperiam amet consequatur rerum vitae ducimus blanditiis, dolore sit,
+                                optio iusto minima nemo qui eligendi alias facere dignissimos possimus accusamus
+                                repellendus. Natus suscipit voluptate cupiditate amet non modi odit, maiores itaque odio
+                                distinctio, asperiores temporibus consequatur aliquid. Quasi id itaque ex.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">Special Edition</div>
+                    <div class="carousel-cell">Deluxe Edition</div>
+                </div>
+            -->
+    </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

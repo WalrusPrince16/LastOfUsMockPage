@@ -1,0 +1,29 @@
+// Colors
+
+$color-light-grey: #7c7e78;
+$color-gold: #fec107;
+$color-white: #fff;
+$color-black: #000;
+
+// Layers
+
+$foreground: 100;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    color: $color-white;
+    font-family: Oswald, sans-serif;
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    overflow-x: hidden;
+}
