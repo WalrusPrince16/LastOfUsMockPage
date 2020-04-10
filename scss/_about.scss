@@ -1,0 +1,16 @@
+.about {
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+    &__img {
+        background-image:
+        url("https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-splash-bgb-ellie-ps4-us-24aug19?$native_nt$");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset -7px 0px 37px 42px rgba(0,0,0,0.95);
+    }
+}

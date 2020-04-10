@@ -9,6 +9,7 @@ html {
 
 body {
   color: #fff;
+  background-color: black;
   font-family: Oswald, sans-serif;
   font-size: 1.6rem;
   box-sizing: inherit;
@@ -56,6 +57,13 @@ body {
     left: 0;
     max-width: 100%; }
 
+.h2 {
+  color: #fff;
+  border-bottom: 4px solid #fec107;
+  font-size: 4rem; }
+  .h2--mb-md {
+    margin-bottom: 3rem; }
+
 .btn {
   border-radius: none;
   border: none;
@@ -87,6 +95,27 @@ body {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   z-index: 100; }
+
+.about {
+  height: 100%;
+  width: 100%;
+  grid-column: 2 / -1;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 1.8rem; }
+
+.about__img {
+  background-image: url("https://media.playstation.com/is/image/SCEA/the-last-of-us-part-ii-splash-bgb-ellie-ps4-us-24aug19?$native_nt$");
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset -7px 0px 37px 42px rgba(0, 0, 0, 0.95); }
 
 .nav {
   position: fixed;

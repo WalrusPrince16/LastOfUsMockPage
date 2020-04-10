@@ -13,3 +13,12 @@
     grid-row: 1 / 2;
     z-index: $foreground;
 }
+
+.about {
+    height: 100%;
+    width: 100%;
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
