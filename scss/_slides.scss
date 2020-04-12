@@ -1,0 +1,91 @@
+.slides {
+
+    .carousel {
+        
+        &-nav {
+            .flickity-slider {
+                transform: translateX(0) !important;
+            }
+            .flickity-button {
+                display: none;
+            }
+            .carousel-cell {
+                color: $color-light-grey;
+                height: auto;
+                width: auto;
+                padding: 2rem;
+            }
+        }
+
+        &-main {
+            .carousel-cell {
+                min-width: 100%;
+                min-height: 50vh;
+                overflow-y: hidden;
+                display: grid;
+                grid-template-columns: 2.5fr 1fr;
+
+                &__img {
+                    align-self: center;
+                    max-width: 100%;
+                    display: block;
+                    height: auto;
+                }
+                
+                &__content {
+                    grid-column: 2 / 3;
+                    max-height: 100%;
+                    width: 100%;
+                }
+
+                .carousel__info {
+                    height: 50rem;
+                    overflow-y: scroll;
+                }
+
+            }    
+        }
+
+    }
+
+    .flickity {
+        &-prev-next-button {
+            height: 6rem;
+            width: 6rem;
+
+            &.previous {
+                margin-left: -7rem;
+            }
+
+            &.next {
+                margin-right: -7rem;
+            }
+
+        }
+
+        &-button {
+            background-color: $color-gold;
+            border-radius: 0;
+
+            &:disabled {
+                display: none;
+            }
+
+        }
+    }
+
+}
+
+.slides ::-webkit-scrollbar {
+    width: .5rem;
+}
+
+.slides ::-webkit-scrollbar-track {
+    background-color: $color-light-grey;
+}
+
+.slides ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: $color-gold;
+}
