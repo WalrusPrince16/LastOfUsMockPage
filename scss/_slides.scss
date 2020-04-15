@@ -1,46 +1,59 @@
 .slides {
-
     .carousel {
-        
+        .btn {
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+        }
         &-nav {
-            .flickity-slider {
-                transform: translateX(0) !important;
-            }
+            text-transform: uppercase;
+            font-size: 1.8rem;
             .flickity-button {
                 display: none;
             }
             .carousel-cell {
                 color: $color-light-grey;
-                height: auto;
                 width: auto;
-                padding: 2rem;
+                text-align: left;
+                background-color: red;
             }
         }
 
         &-main {
             .carousel-cell {
-                min-width: 100%;
-                min-height: 50vh;
-                overflow-y: hidden;
+                width: 100%;
+                height: auto;
                 display: grid;
                 grid-template-columns: 2.5fr 1fr;
+                padding: 0 2rem;
 
                 &__img {
+                    height: auto;
                     align-self: center;
                     max-width: 100%;
-                    display: block;
-                    height: auto;
                 }
                 
                 &__content {
                     grid-column: 2 / 3;
-                    max-height: 100%;
-                    width: 100%;
+                    font-weight: 300;
+                    p {
+                        margin: 2rem 0;
+                    }
+                    ul {
+                        margin-left: 2rem;
+                        list-style: square;
+                        li {
+                            margin: 2rem;
+                        }
+                    }
                 }
 
                 .carousel__info {
-                    height: 50rem;
+                    max-height: 30rem;
                     overflow-y: scroll;
+                }
+
+                .flickity-viewport {
+                    height: 100% !important;
                 }
 
             }    
